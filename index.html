@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- GOOGLE SEO - THIS MAKES YOU VISIBLE -->
+    <!-- GOOGLE VERIFICATION & SEO -->
+    <meta name="google-site-verification" content="D4Dx7WEPfwD3ibqKO_QsHRk3SPyLx1LTx-RseMttOsA" />
     <title>Indo-Bharat Jastip | Premium India-Indonesia Personal Shopper</title>
     <meta name="description" content="Safe, reliable Jastip service between India and Indonesia. Order Birthday Cakes, Jewelry, and Luxury Accessories. Fast international shipping and secure payments.">
     <meta name="keywords" content="Jastip India Indonesia, India to Indonesia Shipping, Personal Shopper India, Birthday Cake Delivery Indonesia, Indian Jewelry Jastip, Indo-Bharat Jastip">
@@ -106,38 +107,38 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Product 1 -->
-            <div class="product-card bg-white p-6 rounded-[32px] border border-slate-100 flex flex-col h-full">
+            <!-- Item 1 -->
+            <div class="product-card bg-white p-6 rounded-[32px] border border-slate-100 flex flex-col h-full shadow-sm">
                 <div class="bg-orange-50 h-64 rounded-2xl mb-6 flex items-center justify-center text-6xl shadow-inner">🎂</div>
-                <h3 class="text-xl font-bold mb-2">Birthday Cakes</h3>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Birthday Cakes</h3>
                 <p class="text-slate-500 text-sm mb-6 flex-grow">Custom local bakery coordination in both countries. Fresh delivery guaranteed for surprises.</p>
-                <button onclick="openModal('cake')" class="w-full bg-slate-50 text-slate-900 py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition">View Prices</button>
+                <button onclick="openModal('cake')" class="w-full bg-slate-50 text-slate-900 py-4 rounded-xl font-bold hover:bg-orange-600 hover:text-white transition">View Details</button>
             </div>
 
-            <!-- Product 2 -->
-            <div class="product-card bg-white p-6 rounded-[32px] border border-slate-100 flex flex-col h-full">
+            <!-- Item 2 -->
+            <div class="product-card bg-white p-6 rounded-[32px] border border-slate-100 flex flex-col h-full shadow-sm">
                 <div class="bg-emerald-50 h-64 rounded-2xl mb-6 flex items-center justify-center text-6xl shadow-inner">📿</div>
-                <h3 class="text-xl font-bold mb-2">Luxury Bracelets</h3>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Luxury Bracelets</h3>
                 <p class="text-slate-500 text-sm mb-6 flex-grow">Ethnic Indian silver and gold-plated jewelry or Indonesian designer accessories.</p>
-                <button onclick="openModal('bracelet')" class="w-full bg-slate-50 text-slate-900 py-4 rounded-xl font-bold hover:bg-emerald-600 hover:text-white transition">View Prices</button>
+                <button onclick="openModal('bracelet')" class="w-full bg-slate-50 text-slate-900 py-4 rounded-xl font-bold hover:bg-emerald-600 hover:text-white transition">View Details</button>
             </div>
 
-            <!-- Product 3 -->
-            <div class="product-card bg-white p-6 rounded-[32px] border border-slate-100 flex flex-col h-full">
+            <!-- Item 3 -->
+            <div class="product-card bg-white p-6 rounded-[32px] border border-slate-100 flex flex-col h-full shadow-sm">
                 <div class="bg-blue-50 h-64 rounded-2xl mb-6 flex items-center justify-center text-6xl shadow-inner">💎</div>
-                <h3 class="text-xl font-bold mb-2">Statement Necklaces</h3>
+                <h3 class="text-xl font-bold mb-2 text-slate-800">Ethnic Necklaces</h3>
                 <p class="text-slate-500 text-sm mb-6 flex-grow">High-end fashion jewelry and traditional wedding pieces sourced from top markets.</p>
-                <button onclick="openModal('necklace')" class="w-full bg-slate-50 text-slate-900 py-4 rounded-xl font-bold hover:bg-blue-600 hover:text-white transition">View Prices</button>
+                <button onclick="openModal('necklace')" class="w-full bg-slate-50 text-slate-900 py-4 rounded-xl font-bold hover:bg-blue-600 hover:text-white transition">View Details</button>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT SECTION (FIXED DUAL NUMBER) -->
+    <!-- CONTACT SECTION -->
     <section id="contact" class="max-w-4xl mx-auto px-6 py-24 text-center">
         <div class="bg-slate-900 rounded-[40px] p-12 text-white shadow-2xl relative overflow-hidden">
             <div class="relative z-10">
-                <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Contact Our Local Teams</h2>
-                <p class="text-slate-400 mb-12">Click your preferred country to chat directly with our regional representative.</p>
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Contact Our Teams</h2>
+                <p class="text-slate-400 mb-12 uppercase tracking-widest text-xs font-bold">Choose your region to start chatting</p>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <!-- INDIA CONTACT -->
@@ -164,28 +165,32 @@
 
     <!-- MODAL SYSTEM -->
     <div id="modal" class="fixed inset-0 bg-slate-900/90 z-[100] hidden items-center justify-center p-6 backdrop-blur-md">
-        <div class="bg-white rounded-[48px] max-w-xl w-full p-10 relative">
+        <div class="bg-white rounded-[48px] max-w-xl w-full p-10 relative shadow-2xl">
             <button onclick="closeModal()" class="absolute top-8 right-8 text-slate-400 hover:text-slate-900 transition font-bold text-xl">✕</button>
             <div id="modal-icon" class="text-7xl mb-8"></div>
-            <h3 id="modal-title" class="text-4xl font-extrabold mb-4"></h3>
+            <h3 id="modal-title" class="text-4xl font-extrabold mb-4 text-slate-900"></h3>
             <p id="modal-price" class="text-orange-600 text-2xl font-black mb-4"></p>
             <p id="modal-desc" class="text-slate-500 leading-relaxed mb-10 text-lg"></p>
             
             <div class="flex flex-col gap-4">
-                <p class="text-xs font-bold text-slate-400 uppercase text-center">Place Order Via WhatsApp</p>
+                <p class="text-xs font-bold text-slate-400 uppercase text-center tracking-widest">Place Order via WhatsApp</p>
                 <div class="grid grid-cols-2 gap-4">
                     <a id="btn-in" href="#" target="_blank" class="bg-orange-600 text-white py-5 rounded-2xl font-bold text-center hover:shadow-lg transition">India Hub</a>
-                    <a id="btn-id" href="#" target="_blank" class="bg-emerald-600 text-white py-5 rounded-2xl font-bold text-center hover:shadow-lg transition">Indo Hub</a>
+                    <a id="btn-id" href="#" target="_blank" class="bg-emerald-600 text-white py-5 rounded-2xl font-bold text-center hover:shadow-lg transition">Indonesia Hub</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer class="py-12 text-center border-t border-slate-100">
+        <p class="text-slate-400 text-sm font-medium">© 2026 Indo-Bharat Premium Jastip Hub. All rights reserved.</p>
+    </footer>
+
     <script>
         const products = {
-            cake: { title: 'Birthday Cakes', icon: '🎂', price: 'Starts at ₹1500 / Rp300k', desc: 'Customized cake service including design selection, message cards, and door-step delivery in the destination city.' },
-            bracelet: { title: 'Luxury Bracelets', icon: '📿', price: 'Starts at ₹800 / Rp150k', desc: 'Sourcing the finest handcrafted bracelets. We verify the quality and material before shipping internationally.' },
-            necklace: { title: 'Ethnic Necklaces', icon: '💎', price: 'By Quote Only', desc: 'Traditional and modern necklaces. Simply send us a photo of the design you like from any Indian or Indonesian store.' }
+            cake: { title: 'Birthday Cakes', icon: '🎂', price: 'Starts at ₹1500 / Rp300k', desc: 'Customized cake service including design selection, message cards, and fresh door-step delivery in your loved one\'s city.' },
+            bracelet: { title: 'Luxury Bracelets', icon: '📿', price: 'Starts at ₹800 / Rp150k', desc: 'Sourcing the finest handcrafted bracelets from local artisans. We verify quality and authenticity before shipping.' },
+            necklace: { title: 'Ethnic Necklaces', icon: '💎', price: 'Price by Quote', desc: 'From heavy wedding ethnic wear to minimalist designs. Send us a photo or a link, and we will find it for you.' }
         };
 
         function openModal(key) {
